@@ -1,5 +1,3 @@
-var wordList = "words.html";
-
-for(let i = 0; i < wordList.length; i++){
-
-}
+let random = Math.floor(Math.random()*dictionary.length);
+let word = dictionary [random];
+console.log("The word is " + word);
